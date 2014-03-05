@@ -3,10 +3,10 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
+         "name": "name",
          "type": "text",
-         "contents": "Hello World!",
-         "description": "FOOO"
+         "contents": "sorpa'as plat",
+         "description": "This is my name."
       },
       {
          "name": "pic.jpg",
@@ -15,27 +15,10 @@
          "caption": "What a beautiful penguin."
       },
       {
-         "name": "dir1",
-         "type": "dir",
-         "contents": [
-            {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
-            },
-            {
-               "name": "foo",
-               "type": "dir",
-               "contents": [
-                  {
-                     "name": "file3",
-                     "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
-                  }
-               ]
-            }
-         ]
+         "name": "website",
+         "type": "exec",
+         "contents": "http://sorpaas.com",
+         "description": "This is my website."
       }
    ]
 }
